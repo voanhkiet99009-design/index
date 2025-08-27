@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tạp hóa Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            padding: 0;
+            background: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .product-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+            gap: 20px;
+        }
+        .product {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 15px;
+            text-align: center;
+            transition: box-shadow 0.3s ease;
+        }
+        .product:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        .product img {
+            max-width: 100%;
+            height: 150px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+        }
+        .product p {
+            color: #555;
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .price {
+            color: #E91E63;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 8px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Siêu Thị Tạp Hóa Online</h1>
+</header>
+
+<div class="container">
+    <div class="product-list">
+
+        <div class="product">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lw0tq5utxcd79f.webp" alt="Gạo" />
+            <h3>Gạo thơm</h3>
+            <p>5kg túi</p>
+            <p class="price">150,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://salt.tikicdn.com/cache/750x750/ts/product/82/9b/0d/e11292947f1ada826720d9e3e31e86a4.jpg.webp" alt="Dầu Ăn" />
+            <h3>Dầu ăn thực vật</h3>
+            <p>1 lít chai</p>
+            <p class="price">40,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m9e057r1d8xu7e.webp" alt="Đường" />
+            <h3>Đường trắng</h3>
+            <p>2kg túi</p>
+            <p class="price">35,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://i.ebayimg.com/images/g/RegAAOSwaj5oIBkM/s-l1600.webp" alt="Mì Tôm" />
+            <h3>Mì tôm ăn liền</h3>
+            <p>Thùng 30 gói</p>
+            <p class="price">120,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://trangocduy.com/wp-content/uploads/2019/08/ANH-DAI-DIEN-TRA-DAC-BIET.jpg" alt="Trà Xanh" />
+            <h3>Trà xanh đóng hộp</h3>
+            <p>Thùng 24 lon</p>
+            <p class="price">200,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://i.ebayimg.com/images/g/vUoAAOSwlQJhf2ET/s-l1600.webp" alt="Bánh Quy" />
+            <h3>Bánh quy socola</h3>
+            <p>Hộp 150g</p>
+            <p class="price">25,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://thichsua.com/wp-content/uploads/2020/08/830ee32849e4862e7a5207173e39721f.jpg_320x320.jpg_550x550.jpg" alt="Sữa tươi" />
+            <h3>Sữa tươi nguyên kem</h3>
+            <p>1 lít</p>
+            <p class="price">45,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://down-vn.img.susercontent.com/file/797cd534b40db6c07f15b34f0d724d1a@resize_w450_nl.webp" alt="Trứng" />
+            <h3>Trứng gà ta</h3>
+            <p>10 quả</p>
+            <p class="price">40,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/100/514/431/products/7196d47c7fbe4cd7a922fa867e95309a.png?v=1724650027200" alt="Bánh Mì" />
+            <h3>Bánh mì tươi</h3>
+            <p>1 ổ</p>
+            <p class="price">12,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ras8-m2atybhq27jof0@resize_w450_nl.webp" alt="Cà phê" />
+            <h3>Cà phê hòa tan</h3>
+            <p>Gói 250g</p>
+            <p class="price">90,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://down-vn.img.susercontent.com/file/vn-11134207-7ra0g-m6gusiqs3plzf9@resize_w450_nl.webp" alt="Nước ngọt" />
+            <h3>Nước ngọt có gas</h3>
+            <p>Chai 500ml</p>
+            <p class="price">15,000₫</p>
+        </div>
+
+        <div class="product">
+            <img src="https://down-vn.img.susercontent.com/file/d9ff581767b526853d70d2b2354d21da.webp" alt="Bột Mì" />
+            <h3>Bột mì đa dụng</h3>
+            <p>1kg túi</p>
+            <p class="price">30,000₫</p>
+        </div>
+
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 Siêu Thị Tạp Hóa Online. Bản quyền thuộc về bạn.
+</footer>
+
+</body>
+</html>
