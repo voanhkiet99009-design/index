@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tạp Hóa Online</title>
     <style>
         body {
@@ -35,7 +34,9 @@
         .container {
             display: flex;
             justify-content: space-around;
+            flex-wrap: wrap;
             margin: 20px 0;
+            gap: 20px;
         }
         .product {
             background-color: white;
@@ -95,23 +96,44 @@
 </nav>
 
 <div class="container">
+    <!-- Sản phẩm hiện tại -->
     <div class="product">
-        <img src="https://vuagaovn.com/upload/1/products/l_1906676030_go_thm_lai.png" alt="Sản Phẩm 1">
+        <img src="https://vuagaovn.com/upload/1/products/l_1906676030_go_thm_lai.png" alt="Sản Phẩm 1" />
         <h3>Sản Phẩm 1</h3>
         <p>Giá: 50,000 VND</p>
         <button onclick="addToCart('Sản Phẩm 1', 50000)">Thêm Vào Giỏ</button>
     </div>
     <div class="product">
-        <img src="https://cdn.tgdd.vn/Products/Images/2803/82126/bhx/muoi-i-ot-bac-lieu-goi-500g-202202160854572738.jpg" alt="Sản Phẩm 2">
+        <img src="https://cdn.tgdd.vn/Products/Images/2803/82126/bhx/muoi-i-ot-bac-lieu-goi-500g-202202160854572738.jpg" alt="Sản Phẩm 2" />
         <h3>Sản Phẩm 2</h3>
         <p>Giá: 30,000 VND</p>
         <button onclick="addToCart('Sản Phẩm 2', 30000)">Thêm Vào Giỏ</button>
     </div>
     <div class="product">
-        <img src=".https://down-vn.img.susercontent.com/file/f482a31eb2da3d889b6a11ad5570d85d_tn" alt="Sản Phẩm 3">
+        <img src="https://down-vn.img.susercontent.com/file/f482a31eb2da3d889b6a11ad5570d85d_tn" alt="Sản Phẩm 3" />
         <h3>Sản Phẩm 3</h3>
         <p>Giá: 100,000 VND</p>
         <button onclick="addToCart('Sản Phẩm 3', 100000)">Thêm Vào Giỏ</button>
+    </div>
+
+    <!-- 3 sản phẩm mới -->
+    <div class="product">
+        <img src="https://cdn.tgdd.vn/Products/Images/8921/244141/tra-xanh-dang-bot-500g-1.jpg" alt="Sản Phẩm 4" />
+        <h3>Trà Xanh Đóng Gói</h3>
+        <p>Giá: 70,000 VND</p>
+        <button onclick="addToCart('Trà Xanh Đóng Gói', 70000)">Thêm Vào Giỏ</button>
+    </div>
+    <div class="product">
+        <img src="https://cf.shopee.vn/file/8a6b9d3bb4371b131fbb3093aa2644f3" alt="Sản Phẩm 5" />
+        <h3>Mật Ong Thiên Nhiên</h3>
+        <p>Giá: 120,000 VND</p>
+        <button onclick="addToCart('Mật Ong Thiên Nhiên', 120000)">Thêm Vào Giỏ</button>
+    </div>
+    <div class="product">
+        <img src="https://salt.tikicdn.com/cache/400x400/ts/product/77/f0/38/0fdf1ff4b3a05a0d3ae20965f8f0c81c.jpg" alt="Sản Phẩm 6" />
+        <h3>Gạo Thơm Hương Lúa</h3>
+        <p>Giá: 90,000 VND</p>
+        <button onclick="addToCart('Gạo Thơm Hương Lúa', 90000)">Thêm Vào Giỏ</button>
     </div>
 </div>
 
@@ -141,62 +163,6 @@
         }
     }
 </script>
-<!DOCTYPE html>
-<html lang="vi">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Tạp hóa Online</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0; 
-            padding: 0;
-            background: #f9f9f9;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        .product-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
-            gap: 20px;
-        }
-        .product {
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            padding: 15px;
-            text-align: center;
-            transition: box-shadow 0.3s ease;
-        }
-        .product:hover {
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-        .product img {
-            max-width: 100%;
-            height: 150px;
-            object-fit: contain;
-            margin-bottom: 10px;
-        }
-        .product h3 {
-            margin: 10px 0 5px;
-            font-size: 18px;
-        }
-        .product p {
-            color: #555;
 
 </body>
 </html>
-
