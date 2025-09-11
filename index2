@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trường Trung Cấp ABC</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e6da4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #337ab7;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #286090;
+        }
+        .container {
+            padding: 20px;
+        }
+        .school-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #999;
+            padding: 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #2e6da4;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Trường Trung Cấp ABC</h1>
+    <p>Nơi ươm mầm tương lai - Học để làm!</p>
+</header>
+
+<nav>
+    <a href="#gioithieu">Giới thiệu</a>
+    <a href="#nganhdaotao">Ngành Đào Tạo</a>
+    <a href="#lienhe">Liên hệ</a>
+</nav>
+
+<div class="container">
+    <section id="gioithieu">
+        <h2>Giới Thiệu</h2>
+        <img src="https://via.placeholder.com/1000x400?text=Hình+ảnh+trường+học" alt="Hình ảnh trường học" class="school-image">
+        <p>Trường Trung Cấp ABC được thành lập với sứ mệnh đào tạo nguồn nhân lực chất lượng cao, đáp ứng nhu cầu thị trường lao động trong và ngoài nước. Với đội ngũ giảng viên nhiệt huyết và cơ sở vật chất hiện đại, chúng tôi luôn sẵn sàng đồng hành cùng học viên trên con đường sự nghiệp.</p>
+    </section>
+
+    <section id="nganhdaotao">
+        <h2>Các Ngành Đào Tạo</h2>
+        <table>
+            <tr>
+                <th>Tên Ngành</th>
+                <th>Thời Gian Đào Tạo</th>
+                <th>Văn Bằng</th>
+            </tr>
+            <tr>
+                <td>Kế Toán Doanh Nghiệp</td>
+                <td>2 năm</td>
+                <td>Trung Cấp Chính Quy</td>
+            </tr>
+            <tr>
+                <td>Điều Dưỡng</td>
+                <td>2.5 năm</td>
+                <td>Trung Cấp Chính Quy</td>
+            </tr>
+            <tr>
+                <td>Công Nghệ Thông Tin</td>
+                <td>2 năm</td>
+                <td>Trung Cấp Chính Quy</td>
+            </tr>
+            <tr>
+                <td>Quản Trị Khách Sạn</td>
+                <td>2 năm</td>
+                <td>Trung Cấp Chính Quy</td>
+            </tr>
+        </table>
+    </section>
+
+    <
+    </section>
+</div>
+
+<footer>
+    &copy; 2025 Trường Trung Cấp ABC. All rights reserved.
+</footer>
+
+</body>
+</html>
